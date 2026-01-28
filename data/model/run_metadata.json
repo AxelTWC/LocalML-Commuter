@@ -1,0 +1,7 @@
+{
+  "device": "cpu",
+  "gpu_name": null,
+  "num_rows": 20,
+  "epochs": 200,
+  "torch_cuda_available": false
+}
