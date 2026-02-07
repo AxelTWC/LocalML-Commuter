@@ -58,9 +58,9 @@ def train_model(df: pd.DataFrame, feature_cols: list[str], out_dir: Path, device
     
     # Print device info for debugging
     if dev.type == "cuda":
-        print(f"✓ Using GPU: {gpu_name}")
+        print(f"Using GPU: {gpu_name}")
     else:
-        print(f"✗ CUDA not available. Using CPU (torch.cuda.is_available()={torch.cuda.is_available()})")
+        print(f"CUDA not available. Using CPU (torch.cuda.is_available()={torch.cuda.is_available()})")
 
     # Model
     torch.manual_seed(42)
